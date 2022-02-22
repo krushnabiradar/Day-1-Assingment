@@ -1,0 +1,96 @@
+Q1  .  Write a blog on Difference between HTTP1.1 vs HTTP2 ?
+
+Ans...
+
+1) HTTP2 is much faster and more reliable than HTTP1.1.
+2) HTTP1 loads a single request for every TCP connection.
+3) HTTP2 avoids network delay by using multiplexing.
+4) HTTP1.1 supports connection reuse.
+5) HTTP1.1 is relatively secure since it uses digest authentication, NTLM authentication.
+   while HTTP2 is better equipped to deal with them due to new TLS features like connection error of type Inadequate_Security.  
+
+6) Main goals of developing HTTP/2 was:
+	1) Page load speed improvements trough:
+	2) Compression of request headers.
+	3) HTTP/2 Server Push.
+	4) HOL blocking (Head-of-line) — Package blocking.
+	5) Request pipelining.
+
+7) Benefits of HTTP2 over HTTP1.1(since it is the updated version of http1.1)
+	1) less prone to errors.
+	2) Lighter network footprints.
+	3) Effective network resourse utilization.
+	4) Low overhead in parsing data.
+
+_______________________________________________________________________________________________________________________________________________________________________________________________
+
+Q2  .  Write a blog about objects and its internal representation in Javascript??
+
+Ans...
+
+1) Object can be represented as
+	Key value pair
+	{
+	 property:Value
+	}
+	 Function:
+
+2) An object, is a reference data type
+3) object may contain any combination of these primitive data-types as well as reference data-types.
+4) The properties of an object define the characteristics of the object.
+5) We can access the properties of an object with a simple dot-notation:
+	objectName.propertyName
+6) One of easiest way to create a javascript object is object literal,
+   simply define the property and values inside curly braces as shown below
+	
+	let bike = {
+		    name: 'ABC', 
+		    Age:'XX',
+		    DOB:'DD-MM-YYYY',
+		    };
+		
+7) we can create JavaScript Object with Constructor as
+
+	function detalis(firstname, lastname) {
+   		details.firstname = firstname;
+   		details.lastname = lastname;
+		}
+
+		let person1 = new details('Mohan', 'Singh’);
+		let person2 = new details('John, 'Doe')
+		console.log(person1.name);    //Output: Mohan
+		console.log(person2.name);    //Output: John
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

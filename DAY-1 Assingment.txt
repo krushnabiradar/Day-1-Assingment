@@ -52,8 +52,8 @@ Ans...
 7) we can create JavaScript Object with Constructor as
 
 	function detalis(firstname, lastname) {
-   		details.firstname = firstname;
-   		details.lastname = lastname;
+   		type.firstname = firstname;
+   		type.lastname = lastname;
 		}
 
 		let person1 = new details('Mohan', 'Singh’);
